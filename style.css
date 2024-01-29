@@ -1,0 +1,73 @@
+body {
+  background-color: #000;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/banner.jpg); */
+}
+p {
+  color: #810505;
+}
+
+.logo {
+  padding-left: 5px;
+  padding-top: 3px;
+  height: 2rem;
+  width: 5rem;
+}
+
+.account_logo {
+  padding-right: 5px;
+  padding-top: 3px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/banner.jpg);
+  height: 33rem;
+  width: 95rem;
+  object-fit: cover;
+}
+
+.banner:hover {
+  filter: brightness(75%);
+}
+
+.plate {
+  padding: 4px;
+  height: 11.5rem;
+  width: 8rem;
+}
+
+.plate:hover {
+  border: whitesmoke;
+  border-radius: 2px;
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  filter: brightness(75%);
+}
+
+.scroll-slide01 {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin; /* For Firefox */
+  -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+}
+
+.scroll-slide01 {
+  display: inline-block;
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.scroll-slide01::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100px;
+  max-width: 100%;
+  margin-right: 10px;
+}
